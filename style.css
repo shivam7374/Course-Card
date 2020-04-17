@@ -60,6 +60,10 @@ animation-iteration-count: infinite;
         transform: translateY(10px);
 
     }
+    75%
+    {
+        transform: translateX(-10px);
+    }
 }
 @media(max-width:900px){
     body{
