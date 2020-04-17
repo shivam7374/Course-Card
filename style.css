@@ -14,10 +14,15 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     text-align: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: space-around;
     border-radius: 15px;
 
+}
+.card:hover{
+    transition:0.2s;
+    height: 415px;
+    width: 310px;
 }
 .btn{
     display: inline;
@@ -30,14 +35,14 @@ body{
     box-shadow: gray 5px 5px 5px ;
 }
 div div.btn:hover{
-    transform: translate(-15px,-15px);
+    transform: translate(-25px,-25px);
     box-shadow: gray 10px 10px 10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 div div.btn:active{
     transform: translate(0px,0px);
     box-shadow: gray 0px 0px 0px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .img{
 animation: bounce;
