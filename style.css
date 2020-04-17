@@ -54,6 +54,8 @@ animation-iteration-count: infinite;
 {
     50%{
         transform: translateY(10px);
+        height: 210px;
+        width: 210px;
     }
 }
 @media(max-width:900px){
