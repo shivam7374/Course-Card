@@ -52,10 +52,13 @@ animation-iteration-count: infinite;
 }
 @keyframes bounce
 {
+    25%
+    {
+        transform: translateX(10px);
+    }
     50%{
         transform: translateY(10px);
-        height: 250px;
-        width: 250px;
+
     }
 }
 @media(max-width:900px){
