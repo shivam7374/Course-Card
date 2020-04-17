@@ -1,6 +1,9 @@
 body{
     background-color: azure;
 }
+.heading{
+    position: sticky;
+}
 .card{
     height:400px;
     width:300px;
