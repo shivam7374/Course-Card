@@ -39,7 +39,7 @@ div div.btn:hover{
     box-shadow: gray 10px 10px 10px;
     transition: 0.2s;
 }
-div div.btn:active{
+div.btn:active{
     transform: translate(0px,0px);
     box-shadow: gray 0px 0px 0px;
     transition: 0.2s;
